@@ -1,0 +1,225 @@
+body{
+    background-color:white;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.menu{
+    border-radius: 0 0 10px 10px ;
+    background-color: rgb(155, 68, 155);
+    color: rgb(195, 141, 245);
+    position:fixed;
+    width: 940px;
+    
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 120px;
+    padding: 20px ;
+}
+
+.menu li{
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding: 5px;
+    
+}
+
+.menu li:hover{
+    background-color: rgb(95, 0, 129);
+    border-radius: 15px 0 15px 0;
+    box-shadow: 0 0 15 px rgba(235, 227, 227, 0.5);
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.inicio{
+
+    background-color: rgb(153, 114, 189);
+    font-family: sans-serif; 
+    display: flex;
+    width: 940px;
+    padding-top: 50px;
+}
+
+.dados-pessoais{
+    padding: 80px;
+}
+    
+.dados-pessoais h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(168, 50, 189);
+  
+    
+}
+.dados-pessoais .cargo{
+    font-size: 1.5em;
+    font-style: italic;
+    color: rgb(168, 50, 189);
+    margin-top: 0px;
+    
+    
+}
+.dados-pessoais p{
+    font-size: 1.5em;
+    color:  rgb(168, 50, 189);
+ 
+    font-style: italic;  
+}
+
+.perfil{
+    margin-left: 20px;
+    margin-bottom: 120px;
+    border: 5px solid #4e047b;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 140px;
+    width: 240px;
+    margin-top: 50px;
+    
+}
+
+.redes-sociais{
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.icone{
+    width: 23px;
+
+  
+}
+.imagens{
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 15px;
+
+}
+
+.sobremim{
+    background-color: #daa3ce; ;
+}
+
+.texto-sobre-mim img{
+    width: 50%;
+    padding: 30px;
+    
+}
+.sobremim h3, .experiencia h3, .educacao h3, .cursoscomplementares h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    padding: 30px;
+}
+
+.texto-sobre-mim{
+    display: flex;
+}
+
+.texto-sobre-mim p{
+    text-align: justify;
+    border-radius: 20px 20px ;
+    font-style: italic;
+    font-size: 20px;
+    width: 50%;
+    padding: 20px;
+}
+
+.experiencia{
+    background-color: #daa3ce;
+    padding-bottom: 30px;
+}
+
+.experiencia p{
+    background-color: #4e047b;
+    width: 80%;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 25px;
+    margin: 25px auto;
+
+}
+
+.educacao {
+    background-color: #daa3ce;
+    padding-bottom: 30px;
+    
+}
+.educacao p{
+    background-color: #4e047b;
+    width: 80%;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 25px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 10px;
+
+}
+
+.cursoscomplementares {
+    background-color: #daa3ce;
+    padding-bottom: 30px;
+}
+
+
+.cursoscomplementares p{
+    background-color: #4e047b;
+    width: 80%;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 25px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 10px;
+}
+.interresses {
+    background-color: #daa3ce;
+    padding-bottom: 30px;
+}                    
+.interesses p, h3{
+    background-color: #4e047b;
+    width: 80%;
+    color: #ffffff;
+    font-size: 1.2em;
+    border-radius: 25px;
+    text-align: center;
+    margin: 25px auto;
+    padding: 10px;
+}
+.interesses{
+    background-color: #daa3ce;
+    padding-bottom: 30px;
+}                  
+.informacoes  {
+    background-color:  rgb(168, 50, 189);
+    padding-bottom: 30px;
+    font-size: 1.2em;
+    text-align: center;
+    padding:  20px auto;
+    color: #ffffff;
+ }
+
+.rodape{
+    width: 20px;
+    width: 25px;
+    left: 200px;
+    top: 45px;
+    left: -280px;
+    top: 20px;
+}
+
+
+
+
